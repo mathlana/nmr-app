@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-toolbar color="success">
+    <ion-buttons slot="start">
+      <ion-menu-button autohide="false"></ion-menu-button>
+     </ion-buttons>
+    <ion-title>HERS</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-list color="success">
+    <ion-item color="success">
+      <ion-avatar slot="start">
+        <ion-img src="../../assets/girl-avatar.jpg" ></ion-img>
+      </ion-avatar>
+      <ion-label>
+        <h1>Lana Popovic</h1>
+        <p>Gathered: <span class="money">$ 15,00</span></p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+
+  <app-pickup-call-card status="hold" createdAt="22/04/2023 16:04:00" updatedAt="22/04/2023 16:04:00" 
+    notes=" we have two bags of clothes. One with baby clothes and other one with adult clothes.">
+    <ion-card-header header>
+      <ion-card-subtitle>Last pickup call</ion-card-subtitle>
+    </ion-card-header>
+    <ion-button color="success" fill="clear" size="full" footer>See all...</ion-button>
+  </app-pickup-call-card>
+    
+
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button button color="success">
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+</ion-content>

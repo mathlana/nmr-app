@@ -1,0 +1,17 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="success">
+    <ion-buttons slot="start">
+      <ion-menu-button autohide="false"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Pickup calls</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+    <app-pickup-call-card status="hold" createdAt="22/04/2023 16:04:00" updatedAt="22/04/2023 16:04:00" 
+    notes=" we have two bags of clothes. One with baby clothes and other one with adult clothes."></app-pickup-call-card>
+    <app-pickup-call-card status="Processing" createdAt="22/04/2023" updatedAt="22/04/2023 18:54:00" 
+    notes=" we have two bags of clothes. One with baby clothes and other one with adult clothes."></app-pickup-call-card>
+    <app-pickup-call-card status="Finished" createdAt="22/04/2023" updatedAt="22/04/2023 20:00:00" 
+    notes="we have two bags of clothes. One with baby clothes and other one with adult clothes." value="$ 15,00"></app-pickup-call-card>
+</ion-content>
